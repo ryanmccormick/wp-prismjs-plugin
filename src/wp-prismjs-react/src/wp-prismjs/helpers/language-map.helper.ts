@@ -16,7 +16,8 @@ const languageMap: StringMap<string> = {
   javascript: 'javascript',
   bash: 'bash',
   typescript: 'typescript',
-  sql: 'sql'
+  sql: 'sql',
+  xml: 'xml'
 };
 
 /**
