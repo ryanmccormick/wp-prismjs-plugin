@@ -16,7 +16,7 @@ mkdir dist
 ## Build React Component
 cd $REACT_PROJECT_ROOT
 
-# npm install
+npm install
 npm run build
 
 ## Copy React Build Artifacts
