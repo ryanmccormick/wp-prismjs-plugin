@@ -23,7 +23,6 @@ npm run build
 cd build
 cp ./prism* $ARTIFACT_STORE/vendor
 cd static/css
-#cd build/static/css
 mv ./main* ../wp-prismjs-plugin.css
 cd ..
 rm -r css
@@ -35,10 +34,10 @@ cd $WP_PLUGIN_PROJECT_ROOT
 cp wp-prismjs-plugin.php $ARTIFACT_STORE
 cp readme.txt $ARTIFACT_STORE
 
-# ## Bundle Plugin for Install
-# cd $ARTIFACT_STORE
-# zip -r -X ../dist/wp-prismjs-plugin.zip .
+## Bundle Plugin for Install
+cd $ARTIFACT_STORE
+zip -r -X ../dist/wp-prismjs-plugin.zip .
 
-# ## Cleanup
-# cd $PROJECT_ROOT
-# rm -rf ./artifact-store/
+## Cleanup
+cd $PROJECT_ROOT
+rm -rf ./artifact-store/
